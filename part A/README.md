@@ -23,6 +23,6 @@ ipfs-api : in browser javascript to upload image to ipfs
 Requirement 3: Project write-up - IPFS
 ---------------------------------------
 
-IPFS is used to upload image from browser using local ipfsnode 
+ipfs-api is used to upload image from browser using a local ipfsnode 
 
-In browser javascript :  const ipfs = window.IpfsApi('/ip4/127.0.0.1/tcp/5001')
+const ipfs = window.IpfsApi('/ip4/127.0.0.1/tcp/5001')
