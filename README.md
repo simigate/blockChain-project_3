@@ -10,9 +10,9 @@ Requirement 1	Deploy smart contract on a public test network : rinkeby test netw
 ----------------------------------------------------------
 Requirement 2
 -------------
-contract address:0x99cf733772d69dbe3f35888e959696a9809f3b20
+contract address : 0x99cf733772d69dbe3f35888e959696a9809f3b20
 
-contract hash:0xbe975572280ab933bc18f7726cb1039c4a5b9ac3
+contract hash : 0xbe975572280ab933bc18f7726cb1039c4a5b9ac3
 
 Transaction hash:
 
