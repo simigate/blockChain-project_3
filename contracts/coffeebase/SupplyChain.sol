@@ -5,19 +5,21 @@ import "../coffeeaccesscontrol/ConsumerRole.sol";
 import "../coffeeaccesscontrol/DistributorRole.sol";
 import "../coffeeaccesscontrol/FarmerRole.sol";
 import "../coffeeaccesscontrol/RetailerRole.sol";
+import "../coffeecore/Ownable.sol";
 
 // Define a contract 'Supplychain'
 contract SupplyChain is
     ConsumerRole,
     DistributorRole,
     FarmerRole,
-    RetailerRole
+    RetailerRole,
+    Ownable
 {
     //Define ipfshash
     string ipfsHash = "";
 
     // Define 'owner'
-    address private owner;
+    address public owner;
 
     // Define a variable called 'upc' for Universal Product Code (UPC)
     uint256 upc;
